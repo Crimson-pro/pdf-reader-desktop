@@ -67,7 +67,8 @@
     "mac": {
       "target": ["dmg", "zip"],
       "icon": "public/icons/icon-512.png",
-      "category": "public.app-category.productivity"
+      "category": "public.app-category.productivity",
+      "artifactName": "PDF-Reader-${version}-${arch}.${ext}"
     },
     "linux": {
       "target": ["AppImage"],
