@@ -58,7 +58,7 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "public/icons/icon-128.png"
+      "icon": "public/icons/icon-512.png"
     },
     "nsis": {
       "oneClick": false,
@@ -66,12 +66,12 @@
     },
     "mac": {
       "target": ["dmg", "zip"],
-      "icon": "public/icons/icon-128.png",
+      "icon": "public/icons/icon-512.png",
       "category": "public.app-category.productivity"
     },
     "linux": {
       "target": ["AppImage"],
-      "icon": "public/icons/icon-128.png",
+      "icon": "public/icons/icon-512.png",
       "category": "Office"
     }
   }

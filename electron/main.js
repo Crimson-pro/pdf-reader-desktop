@@ -52,7 +52,7 @@ function createWindow() {
       contextIsolation: true,
       preload: path.join(__dirname, 'preload.js'),
     },
-    icon: path.join(__dirname, '../public/icons/icon-128.png'),
+    icon: path.join(__dirname, '../public/icons/icon-512.png'),
   });
 
   if (isDev) {
